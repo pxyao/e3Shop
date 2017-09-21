@@ -45,6 +45,7 @@ public class HtmlgenController {
 		template.process(data, out);
 		//关闭流
 		out.close();
-		return "OK";
+		return null;
+		
 	}
 }
