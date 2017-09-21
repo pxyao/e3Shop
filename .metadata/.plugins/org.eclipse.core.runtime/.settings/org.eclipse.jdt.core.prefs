@@ -1,0 +1,19 @@
+JRE_LIB=C\:/Program Files (x86)/Java/jdk1.7.0_80/jre/lib/rt.jar
+JRE_SRC=C\:/Program Files (x86)/Java/jdk1.7.0_80/src.zip
+eclipse.preferences.version=1
+org.eclipse.jdt.core.builder.resourceCopyExclusionFilter=
+org.eclipse.jdt.core.classpathVariable.ASPECTJRT_LIB=E\:/Programing/IDE/eclipseSTS/eclipse/plugins/org.aspectj.runtime_1.8.9.201602042048.jar
+org.eclipse.jdt.core.classpathVariable.ECLIPSE_HOME=E\:/Programing/IDE/eclipseSTS/eclipse/
+org.eclipse.jdt.core.classpathVariable.JRE_LIB=C\:/Program Files (x86)/Java/jdk1.7.0_80/jre/lib/rt.jar
+org.eclipse.jdt.core.classpathVariable.JRE_SRC=C\:/Program Files (x86)/Java/jdk1.7.0_80/src.zip
+org.eclipse.jdt.core.classpathVariable.JRE_SRCROOT=
+org.eclipse.jdt.core.classpathVariable.JUNIT_HOME=E\:/Programing/IDE/eclipseSTS/eclipse/plugins/org.junit_4.12.0.v201504281640/
+org.eclipse.jdt.core.classpathVariable.M2_REPO=E\:/Programing/javaweb/repository
+org.eclipse.jdt.core.codeComplete.visibilityCheck=enabled
+org.eclipse.jdt.core.compiler.codegen.inlineJsrBytecode=enabled
+org.eclipse.jdt.core.compiler.codegen.targetPlatform=1.8
+org.eclipse.jdt.core.compiler.compliance=1.8
+org.eclipse.jdt.core.compiler.problem.assertIdentifier=error
+org.eclipse.jdt.core.compiler.problem.enumIdentifier=error
+org.eclipse.jdt.core.compiler.source=1.8
+org.eclipse.jdt.core.userLibrary.cxf_lib=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<userlibrary systemlibrary\="false" version\="2">\r\n\t<archive path\="/Cxfweb_client/lib/com.springsource.org.aopalliance-1.0.0.jar"/>\r\n\t<archive path\="/Cxfweb_client/lib/com.springsource.org.aspectj.weaver-1.6.8.RELEASE.jar"/>\r\n\t<archive path\="/Cxfweb_client/lib/commons-logging-1.1.1.jar"/>\r\n\t<archive path\="/Cxfweb_client/lib/cxf-2.4.2.jar"/>\r\n\t<archive path\="/Cxfweb_client/lib/geronimo-activation_1.1_spec-1.1.jar"/>\r\n\t<archive path\="/Cxfweb_client/lib/geronimo-annotation_1.0_spec-1.1.1.jar"/>\r\n\t<archive path\="/Cxfweb_client/lib/geronimo-javamail_1.4_spec-1.7.1.jar"/>\r\n\t<archive path\="/Cxfweb_client/lib/geronimo-stax-api_1.0_spec-1.0.1.jar"/>\r\n\t<archive path\="/Cxfweb_client/lib/jaxb-api-2.2.1.jar"/>\r\n\t<archive path\="/Cxfweb_client/lib/jaxb-impl-2.2.1.1.jar"/>\r\n\t<archive path\="/Cxfweb_client/lib/log4j-1.2.17.jar"/>\r\n\t<archive path\="/Cxfweb_client/lib/mysql-connector-java-5.0.8-bin.jar"/>\r\n\t<archive path\="/Cxfweb_client/lib/neethi-3.0.1.jar"/>\r\n\t<archive path\="/Cxfweb_client/lib/slf4j-api-1.6.1.jar"/>\r\n\t<archive path\="/Cxfweb_client/lib/slf4j-log4j12-1.7.2.jar"/>\r\n\t<archive path\="/Cxfweb_client/lib/spring-aop-3.2.0.RELEASE.jar"/>\r\n\t<archive path\="/Cxfweb_client/lib/spring-aspects-3.2.0.RELEASE.jar"/>\r\n\t<archive path\="/Cxfweb_client/lib/spring-beans-3.2.0.RELEASE.jar"/>\r\n\t<archive path\="/Cxfweb_client/lib/spring-context-3.2.0.RELEASE.jar"/>\r\n\t<archive path\="/Cxfweb_client/lib/spring-core-3.2.0.RELEASE.jar"/>\r\n\t<archive path\="/Cxfweb_client/lib/spring-expression-3.2.0.RELEASE.jar"/>\r\n\t<archive path\="/Cxfweb_client/lib/spring-jdbc-3.2.0.RELEASE.jar"/>\r\n\t<archive path\="/Cxfweb_client/lib/spring-tx-3.2.0.RELEASE.jar"/>\r\n\t<archive path\="/Cxfweb_client/lib/spring-web-3.2.0.RELEASE.jar"/>\r\n\t<archive path\="/Cxfweb_client/lib/stax2-api-3.1.1.jar"/>\r\n\t<archive path\="/Cxfweb_client/lib/woodstox-core-asl-4.1.1.jar"/>\r\n\t<archive path\="/Cxfweb_client/lib/wsdl4j-1.6.2.jar"/>\r\n\t<archive path\="/Cxfweb_client/lib/xmlschema-core-2.0.jar"/>\r\n</userlibrary>\r\n

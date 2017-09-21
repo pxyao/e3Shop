@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ConfigureProjectWizard">
+		<item value="org.tigris.subversion.subclipse.ui.SharingWizard" key="selectedWizardId"/>
+	</section>
+	<section name="SynchronizeViewSettings">
+		<item value="1502420691619" key="lastactiveparticipant_sec_id"/>
+		<item value="org.tigris.subversion.subclipse.participant" key="lastactiveparticipant_id"/>
+		<item value="false" key="linkWithEditor"/>
+		<section name="org.tigris.subversion.subclipse.participant.1502420526242">
+		</section>
+		<section name="org.tigris.subversion.subclipse.participant.1502420300806">
+		</section>
+		<section name="org.tigris.subversion.subclipse.participant.1502420691619">
+			<item value="org.eclipse.team.ui.modelprovider_compressedfolders" key="org.eclipse.team.ui.P_LAST_MODELPROVIDER"/>
+			<item value="false" key="org.eclipse.team.ui.P_COMMIT_SET_ENABLED"/>
+		</section>
+	</section>
+</section>

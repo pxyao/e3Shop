@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+  <system systemId="http://www.springframework.org/schema/beans/spring-beans-4.2.xsd" uri="file:///E:/Programing/教程/黑马32/e3商城_day01/黑马32期/01.教案-3.0/01.参考资料/spring约束/spring-beans-4.2.xsd"/>
+  <system systemId="http://www.springframework.org/schema/aop/spring-aop-4.2.xsd" uri="file:///E:/Programing/教程/黑马32/e3商城_day01/黑马32期/01.教案-3.0/01.参考资料/spring约束/spring-aop-4.2.xsd"/>
+  <system systemId="http://www.springframework.org/schema/cache/spring-cache-4.2.xsd" uri="file:///E:/Programing/教程/黑马32/e3商城_day01/黑马32期/01.教案-3.0/01.参考资料/spring约束/spring-cache-4.2.xsd"/>
+  <system systemId="http://www.springframework.org/schema/context/spring-context-4.2.xsd" uri="file:///E:/Programing/教程/黑马32/e3商城_day01/黑马32期/01.教案-3.0/01.参考资料/spring约束/spring-context-4.2.xsd"/>
+  <system systemId="http://www.springframework.org/schema/jdbc/spring-jdbc-4.2.xsd" uri="file:///E:/Programing/教程/黑马32/e3商城_day01/黑马32期/01.教案-3.0/01.参考资料/spring约束/spring-jdbc-4.2.xsd"/>
+  <system systemId="http://www.springframework.org/schema/jee/spring-jee-4.2.xsd" uri="file:///E:/Programing/教程/黑马32/e3商城_day01/黑马32期/01.教案-3.0/01.参考资料/spring约束/spring-jee-4.2.xsd"/>
+  <system systemId="http://www.springframework.org/schema/jms/pring-jms-4.2.xsd" uri="file:///E:/Programing/教程/黑马32/e3商城_day01/黑马32期/01.教案-3.0/01.参考资料/spring约束/spring-jms-4.2.xsd"/>
+  <system systemId="http://www.springframework.org/schema/lang/spring-lang-4.2.xsd" uri="file:///E:/Programing/教程/黑马32/e3商城_day01/黑马32期/01.教案-3.0/01.参考资料/spring约束/spring-lang-4.2.xsd"/>
+  <system systemId="http://www.springframework.org/schema/mvc/spring-mvc-4.2.xsd" uri="file:///E:/Programing/教程/黑马32/e3商城_day01/黑马32期/01.教案-3.0/01.参考资料/spring约束/spring-mvc-4.2.xsd"/>
+  <system systemId="http://www.springframework.org/schema/oxm/spring-oxm-4.2.xsd" uri="file:///E:/Programing/教程/黑马32/e3商城_day01/黑马32期/01.教案-3.0/01.参考资料/spring约束/spring-oxm-4.2.xsd"/>
+  <system systemId="http://www.springframework.org/schema/task/spring-task-4.2.xsd" uri="file:///E:/Programing/教程/黑马32/e3商城_day01/黑马32期/01.教案-3.0/01.参考资料/spring约束/spring-task-4.2.xsd"/>
+  <system systemId="http://www.springframework.org/schema/tool/spring-tool-4.2.xsd" uri="file:///E:/Programing/教程/黑马32/e3商城_day01/黑马32期/01.教案-3.0/01.参考资料/spring约束/spring-tool-4.2.xsd"/>
+  <system systemId="http://www.springframework.org/schema/tx/spring-tx-4.2.xsd" uri="file:///E:/Programing/教程/黑马32/e3商城_day01/黑马32期/01.教案-3.0/01.参考资料/spring约束/spring-tx-4.2.xsd"/>
+  <system systemId="http://www.springframework.org/schema/util/spring-util-4.2.xsd" uri="file:///E:/Programing/教程/黑马32/e3商城_day01/黑马32期/01.教案-3.0/01.参考资料/spring约束/spring-util-4.2.xsd"/>
+  <system systemId="http://www.springframework.org/schema/websocket/spring-websocket-4.2.xsd" uri="file:///E:/Programing/教程/黑马32/e3商城_day01/黑马32期/01.教案-3.0/01.参考资料/spring约束/spring-websocket-4.2.xsd"/>
+  <system systemId="http://code.alibabatech.com/schema/dubbo/dubbo.xsd" uri="file:///E:/Programing/教程/黑马32/e3商城_day01/黑马32期/01.教案-3.0/01.参考资料/dubbo/dubbo.xsd"/>
+</catalog>

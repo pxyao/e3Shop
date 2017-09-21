@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=e3-manager-interface/src\/main\/java&lt;cn.e3mall.service{ItemCatService.java[ItemCatService" modifiers="513" timestamp="1504405619681"/>
+<typeInfo handle="=e3-content-interface/src\/main\/java&lt;cn.e3mall.content.service{ContentCategoryService.java[ContentCategoryService" modifiers="513" timestamp="1504441963049"/>
+<typeInfo handle="=e3-search-interface/src\/main\/java&lt;cn.e3mall.search.service{SearchService.java[SearchService" modifiers="513" timestamp="1504834245382"/>
+<typeInfo handle="=e3-search-service/src\/main\/java&lt;cn.e3mall.search.message{ItemAddMessageListener.java[ItemAddMessageListener" modifiers="1" timestamp="1505102933886"/>
+<typeInfo handle="=e3-manager-pojo/src\/main\/java&lt;cn.e3mall.pojo{TbItem.java[TbItem" modifiers="1" timestamp="1502538620006"/>
+</typeInfoHistroy>

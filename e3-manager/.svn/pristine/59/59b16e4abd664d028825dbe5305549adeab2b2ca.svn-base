@@ -1,0 +1,50 @@
+package cn.e3mall.service.impl;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
+
+import cn.e3mall.mapper.TbItemMapper;
+import cn.e3mall.pojo.EasyUIResult;
+import cn.e3mall.pojo.TbItem;
+import cn.e3mall.pojo.TbItemExample;
+import cn.e3mall.pojo.TbItemExample.Criteria;
+import cn.e3mall.service.ItemService;
+
+/**
+ * 
+ * @author 庞湘耀
+ *
+ */
+@Service
+public class ItemServiceImpl implements ItemService{
+	
+	@Autowired
+	private TbItemMapper itemDao;
+
+	public TbItem findItemById(Long id) {
+		TbItemExample example = new TbItemExample();
+		Criteria criteria = example.createCriteria();
+		criteria.andIdEqualTo(id);
+		List<TbItem> list = itemDao.selectByExample(example);
+		if (list.size() > 0 && list != null) {
+			return list.get(0);
+		}
+		return null;
+	}
+
+	public EasyUIResult getItemResult(int page, int rows) {
+		PageHelper.startPage(page, rows);
+		EasyUIResult result = new EasyUIResult();
+		TbItemExample example = new TbItemExample();
+		List<TbItem> list = itemDao.selectByExample(example);
+		PageInfo<TbItem> pageInfo = new PageInfo<>(list);
+		result.setRows(list);
+		result.setTotal(pageInfo.getTotal());
+		return result;
+	}
+}

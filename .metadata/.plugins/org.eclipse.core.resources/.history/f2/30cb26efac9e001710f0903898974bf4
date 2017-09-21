@@ -1,0 +1,11 @@
+<html>
+<head>
+	<title>student</title>
+</head>
+<body>
+	<#list students as>
+	<tr>
+		
+	</tr>
+</body>
+</html>

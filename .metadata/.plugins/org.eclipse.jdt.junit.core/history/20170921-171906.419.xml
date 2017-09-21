@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Snippet.genFile" project="e3-item-web" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testcase name="genFile" classname="snippet.Snippet" time="0.304">
+    <error>FreeMarker template error:&#13;
+The following has evaluated to null or missing:
+==&gt; stu.index  [in template "student.ftl" at line 17, column 31]
+
+----
+Tip: It's the step after the last dot that caused this error, not those before it.
+----
+Tip: If the failing expression is known to be legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use &lt;#if myOptionalVar??&gt;when-present&lt;#else&gt;when-missing&lt;/#if&gt;. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----&#13;
+&#13;
+----&#13;
+FTL stack trace ("~" means nesting-related):&#13;
+	- Failed at: ${stu.index}  [in template "student.ftl" at line 17, column 29]&#13;
+----&#13;
+&#13;
+Java stack trace (for programmers):&#13;
+----&#13;
+freemarker.core.InvalidReferenceException: [... Exception message was already printed; see it above ...]&#13;
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:131)&#13;
+	at freemarker.core.EvalUtil.coerceModelToString(EvalUtil.java:355)&#13;
+	at freemarker.core.Expression.evalAndCoerceToString(Expression.java:82)&#13;
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:41)&#13;
+	at freemarker.core.Environment.visit(Environment.java:324)&#13;
+	at freemarker.core.MixedContent.accept(MixedContent.java:54)&#13;
+	at freemarker.core.Environment.visitByHiddingParent(Environment.java:345)&#13;
+	at freemarker.core.IteratorBlock$IterationContext.executeNestedBlockInner(IteratorBlock.java:268)&#13;
+	at freemarker.core.IteratorBlock$IterationContext.executeNestedBlock(IteratorBlock.java:220)&#13;
+	at freemarker.core.IteratorBlock$IterationContext.accept(IteratorBlock.java:194)&#13;
+	at freemarker.core.Environment.visitIteratorBlock(Environment.java:572)&#13;
+	at freemarker.core.IteratorBlock.acceptWithResult(IteratorBlock.java:78)&#13;
+	at freemarker.core.IteratorBlock.accept(IteratorBlock.java:64)&#13;
+	at freemarker.core.Environment.visit(Environment.java:324)&#13;
+	at freemarker.core.MixedContent.accept(MixedContent.java:54)&#13;
+	at freemarker.core.Environment.visit(Environment.java:324)&#13;
+	at freemarker.core.Environment.process(Environment.java:302)&#13;
+	at freemarker.template.Template.process(Template.java:325)&#13;
+	at snippet.Snippet.genFile(Snippet.java:46)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+	at java.lang.reflect.Method.invoke(Method.java:606)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#13;
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)&#13;
+&#13;
+</error>
+  </testcase>
+</testrun>

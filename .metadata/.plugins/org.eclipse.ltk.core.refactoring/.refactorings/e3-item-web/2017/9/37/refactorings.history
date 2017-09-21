@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;css, images, js&apos; to &apos;webapp&apos;" description="Move 3 resources to &apos;webapp&apos;" destination="src/main/webapp" element1="src/main/webapp/WEB-INF/css" element2="src/main/webapp/WEB-INF/images" element3="src/main/webapp/WEB-INF/js" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="3" stamp="1505272598151" updateReferences="true"/>
+</session>

@@ -1,0 +1,25 @@
+<html>
+<head>
+	<title>student</title>
+</head>
+<body>
+	
+	<table border="1">
+		<tr>
+			<th>学号</th>
+			<th>姓名</th>
+			<th>年龄</th>
+			<th>地址</th>
+		</tr>
+		<#list studentList as stu>
+		<tr>
+			<th>${stu.id}</th>
+			<th>${stu.name}</th>
+			<th>${stu.age}</th>
+			<th>${stu.address}</th>
+		</tr>
+		</#list>
+	</table>
+	
+</body>
+</html>

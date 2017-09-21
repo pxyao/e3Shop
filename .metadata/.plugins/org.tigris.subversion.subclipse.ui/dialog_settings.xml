@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="160" key="CommitDialog.location.y"/>
+	<item value="trunk" key="DirectorySelectionPage.lastParent_https://sc-201706192323/svn/e3mall"/>
+	<item value="19" key="CommitDialog.location.x"/>
+	<item value="500" key="CommitDialog.weights.0"/>
+	<item value="500" key="CommitDialog.weights.1"/>
+	<item value="512" key="CommitDialog.size.y"/>
+	<item value="" key="DirectorySelectionPage.lastParent_svn://sc-201706011410/BOS"/>
+	<item value="1370" key="CommitDialog.size.x"/>
+	<item value="503" key="ChooseUrlDialog.size.x"/>
+	<item value="398" key="ChooseUrlDialog.size.y"/>
+	<item value="https://sc-201706192323/svn/e3mall" key="RepositorySelectionPage.lastRepository"/>
+	<item value="1143" key="ChooseUrlDialog.location.x"/>
+	<item value="277" key="ChooseUrlDialog.location.y"/>
+	<section name="CommitWizard">
+		<item value="500" key="VWeight2"/>
+		<item value="500" key="VWeight1"/>
+		<item value="false" key="ShowCompare"/>
+	</section>
+	<section name="IgnoreResourcesDialog">
+		<item value="0" key="Action"/>
+	</section>
+	<section name="NewLocationWizard">
+		<list key="ConfigurationWizardMainPage.STORE_URL_ID">
+			<item value="https://SC-201706192323/svn/e3mall/"/>
+			<item value="https://SC-201706192323/svn/e3mall"/>
+		</list>
+	</section>
+</section>

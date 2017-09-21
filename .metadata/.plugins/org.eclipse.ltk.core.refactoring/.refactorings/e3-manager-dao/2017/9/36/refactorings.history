@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;TbContentMapper.xml&apos; to &apos;e3-search-service/src/main/java/cn.e3mall.search.mapper&apos;&#x0D;&#x0A;- Original project: &apos;e3-manager-dao&apos;&#x0D;&#x0A;- Destination element: &apos;e3-search-service/src/main/java/cn.e3mall.search.mapper&apos;&#x0D;&#x0A;- Original element: &apos;TbContentMapper.xml&apos;" description="Copy file" destination="=e3-search-service/src\/main\/java&lt;cn.e3mall.search.mapper" element1="src/main/java/cn/e3mall/mapper/TbContentMapper.xml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1504699165224" units="0" version="1.0"/>
+</session>

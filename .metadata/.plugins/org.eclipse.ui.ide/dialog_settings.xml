@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="CleanDialogSettings">
+		<item value="581" key="DIALOG_WIDTH"/>
+		<item value="true" key="BUILD_ALL"/>
+		<item value="false" key="TOGGLE_SELECTED"/>
+		<item value="498" key="DIALOG_HEIGHT"/>
+		<item value="628" key="DIALOG_X_ORIGIN"/>
+		<item value="208" key="DIALOG_Y_ORIGIN"/>
+		<item value="true" key="BUILD_NOW"/>
+	</section>
+	<section name="ExternalProjectImportWizard">
+		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="true" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="E:\Programing\教程\黑马32\e3商城_day01\黑马32期\01.教案-3.0\01.参考资料\FastDFS\bin\fastdfs_client"/>
+			<item value="E:\Programing\教程\黑马32\e3商城_day01\黑马32期\01.教案-3.0\01.参考资料\FastDFS\fastdfsClient"/>
+			<item value="E:\Programing\教程\黑马32\e3商城_day01\黑马32期\01.教案-3.0\01.参考资料\mybatis\逆向工程\generatorSqlmapCustom"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.dialogs.FilteredResourcesSelectionDialog">
+		<item value="false" key="FilterByLocation"/>
+		<item value="true" key="ShowStatusLine"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History&gt;&#x0D;&#x0A;&lt;historyRootNode&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/e3-manager-web/src/main/webapp/WEB-INF/jsp/item-add.jsp&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/e3-manager-web/src/main/webapp/WEB-INF/jsp/item-edit.jsp&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/e3-manager-web/src/main/webapp/WEB-INF/jsp/content-add.jsp&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/e3-manager-web/src/main/webapp/WEB-INF/jsp/content-category.jsp&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/e3-manager/e3-manager-pojo/src/main/java/cn/e3mall/pojo/TbContentCategory.java&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/e3-manager-web/src/main/webapp/WEB-INF/jsp/index-item.jsp&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/e3-search/e3-search-service/target/classes/cn/e3mall/search/message/ItemAddMessageListener.class&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;infoNode path=&quot;/e3-content/e3-content-service/src/main/resources/spring/applicationContext-redis.xml&quot; type=&quot;1&quot;/&gt;&#x0D;&#x0A;&lt;/historyRootNode&gt;&#x0D;&#x0A;&lt;/History&gt;" key="History"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;workingSet workingSetName=&quot;&quot;/&gt;" key="WorkingSet"/>
+		<item value="false" key="ShowDerived"/>
+		<section name="DialogBoundsSettings">
+			<item value="600" key="DIALOG_WIDTH"/>
+			<item value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI" key="DIALOG_FONT_NAME"/>
+			<item value="502" key="DIALOG_HEIGHT"/>
+			<item value="386" key="DIALOG_X_ORIGIN"/>
+			<item value="222" key="DIALOG_Y_ORIGIN"/>
+		</section>
+	</section>
+</section>
