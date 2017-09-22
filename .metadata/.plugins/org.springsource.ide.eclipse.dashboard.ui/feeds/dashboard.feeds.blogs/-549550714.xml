@@ -5,7 +5,23 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2017-09-19T13:35:10Z</updated>
+  <updated>2017-09-21T15:35:52Z</updated>
+  <entry>
+    <title>How to get STS/Eclipse running on macOS High Sierra (10.13)</title>
+    <link rel="alternate" href="https://spring.io/blog/2017/09/21/how-to-get-sts-eclipse-running-on-macos-high-sierra-10-13" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Martin Lippert</name>
+    </author>
+    <id>tag:spring.io,2017-09-21:3035</id>
+    <updated>2017-09-21T15:35:52Z</updated>
+    <content type="html">&lt;p&gt;The new version of macOS called High Sierra (10.13) will soon go GA and we expect many of our STS/Eclipse users and Spring developers will upgrade their machines sooner than later. In case you have your system running with an English locale, you are fine and everything will be good.&lt;/p&gt;
+&lt;p&gt;If you are running your system with a different language configured, you will see all menu items of Eclipse or STS being disabled after the upgrade to macOS High Sierra.&lt;/p&gt;
+&lt;p&gt;The good news is: you can quickly get this fixed without waiting for an update of Eclipse or STS. Go into the Eclipse.app or STS.app package, move into the &amp;ldquo;Contents&amp;rdquo; folder, and edit the Info.plist file (with a text editor of your choice). Scroll down to the list of locales and remove everything from that list except for the &amp;ldquo;en&amp;rdquo; entry. Save the file, exit your text editor, and you are good again.&lt;/p&gt;
+&lt;p&gt;You can do that edit even before you install macOS High Sierra (10.13), it doesn&amp;rsquo;t hurt your existing install running on other versions of macOS. (And take care to start the app at least once before you edit the file. Otherwise Gatekeeper will notice that the code signature of the downloaded package doesn&amp;rsquo;t fit the actual content and will deny to open the app.)&lt;/p&gt;
+&lt;p&gt;STS 3.9.1 will ship with a fixed Info.plist file out-of-the-box, of course, and is scheduled for mid October.&lt;/p&gt;
+&lt;p&gt;In case you are interested in all the details behind this, here is a bug entry at Eclipse with with all the details: &lt;a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=520176"&gt;https://bugs.eclipse.org/bugs/show_bug.cgi?id=520176&lt;/a&gt;.&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>Spring IO Platform Brussels-SR5</title>
     <link rel="alternate" href="https://spring.io/blog/2017/09/19/spring-io-platform-brussels-sr5" />
@@ -1314,43 +1330,5 @@ Feedback, feature requests and, of course, contributions are welcomed via the us
 &lt;p&gt;Spring Framework 5.0 RC4 also comes with first-class support for the final version of the Servlet 4.0 API, provides fine-tuned integration with Hibernate Validator 6.0 and is up-to-date with Jackson 2.9.1 and Kotlin 1.1.4. Our dependency baseline is therefore almost complete, with just Reactor 3.1 GA and a few JDK 9 related updates (e.g. ASM 6.0) to happen still.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Next up: Spring Framework 5.0 GA, scheduled for September 28th!&lt;/em&gt;&lt;br/&gt;We&amp;rsquo;ll celebrate it shortly thereafter with our &lt;a href="https://content.pivotal.io/spring/oct-4-getting-reactive-with-spring-framework-5-0-s-ga-release-webinar"&gt;release webinar&lt;/a&gt; on October 4th. Feel free to join!&lt;/p&gt;
 &lt;p&gt;Cheers,&lt;br/&gt;Juergen&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Vault 1.1.0 RC1 available</title>
-    <link rel="alternate" href="https://spring.io/blog/2017/09/11/spring-vault-1-1-0-rc1-available" />
-    <category term="releases" label="Releases" />
-    <author>
-      <name>Mark Paluch</name>
-    </author>
-    <id>tag:spring.io,2017-09-11:3015</id>
-    <updated>2017-09-11T10:27:00Z</updated>
-    <content type="html">&lt;div class="paragraph"&gt;
-&lt;p&gt;On behalf of the community, I would like to announce Spring Vault 1.1.0 RC, available from the milestone repository.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;Since the previous milestone, these features have made it into the release candidate:&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="ulist"&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Pull-mode support for AppRole authentication&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;New styling of the HTML reference documentation&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div class="sect2"&gt;
-&lt;h3 id="contributions"&gt;&lt;a class="anchor" href="#contributions"&gt;&lt;/a&gt;Contributions&lt;/h3&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;Without the community, we couldn¡¯t be the successful project we are today. I¡¯d like to thank everyone that created issues &amp;amp; provided feedback.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;For a complete list of changes see &lt;a href="http://docs.spring.io/spring-vault/docs/1.1.0.RC1/changelog.txt"&gt;the changelog&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;&lt;a href="http://projects.spring.io/spring-vault/"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-vault"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-vault/issues"&gt;Issues&lt;/a&gt; | &lt;a href="http://docs.spring.io/spring-vault/docs/1.1.0.RC1/reference/html/"&gt;Documentation&lt;/a&gt; | &lt;a href="http://stackoverflow.com/questions/tagged/spring-vault"&gt;Stack Overflow&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;</content>
   </entry>
 </feed>
