@@ -1,7 +1,0 @@
-package cn.e3mall.item.pojo;
-
-import cn.e3mall.pojo.TbItem;
-
-public class Item extends TbItem {
-
-}

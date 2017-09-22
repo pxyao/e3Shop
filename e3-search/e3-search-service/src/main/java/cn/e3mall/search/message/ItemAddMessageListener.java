@@ -31,7 +31,7 @@ public class ItemAddMessageListener implements MessageListener {
 			String text = textMessage.getText();
 			Long itemId = new Long(text);
 			//等待事务提交
-			Thread.sleep(1000);
+			Thread.sleep(2000);
 			//根据商品id查询商品信息
 			SearchItem searchItem = itemMapper.getItemById(itemId);
 			//创建一个文档对象

@@ -11,6 +11,7 @@
 //com.springsource.config.ui.prefs.activePageIndex\:/e3-content-service/src/main/resources/spring/applicationContext-service.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
 //com.springsource.config.ui.prefs.activePageIndex\:/e3-content-service/src/main/resources/spring/applicationContext-trans.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
 //com.springsource.config.ui.prefs.activePageIndex\:/e3-content/e3-content-service/src/main/resources/spring/applicationContext-redis.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
+//com.springsource.config.ui.prefs.activePageIndex\:/e3-item-web/src/main/resources/spring/applicationContext-activemq.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
 //com.springsource.config.ui.prefs.activePageIndex\:/e3-manager-service/src/main/resources/spring/applicationContext-activemq.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
 //com.springsource.config.ui.prefs.activePageIndex\:/e3-manager-service/src/main/resources/spring/applicationContext-dao.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>
 //com.springsource.config.ui.prefs.activePageIndex\:/e3-manager-service/src/main/resources/spring/applicationContext-redis.xml=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<activePage index\="0"/>

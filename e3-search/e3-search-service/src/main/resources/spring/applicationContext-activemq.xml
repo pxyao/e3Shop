@@ -24,11 +24,11 @@
 			<value>spring-queue</value>
 		</constructor-arg>
 	</bean>
-	<bean id="myMessageListener" class="cn.e3mall.search.message.MyMessageListener"></bean>
+	<!--这个是主题目的地，一对多的 -->
 	<bean id="topicDestination" class="org.apache.activemq.command.ActiveMQTopic">
 		<constructor-arg value="itemAddTopic" />
 	</bean>
-
+	<bean id="myMessageListener" class="cn.e3mall.search.message.MyMessageListener"></bean>
 	<!-- 消息监听容器 -->
 	<bean
 		class="org.springframework.jms.listener.DefaultMessageListenerContainer">
@@ -44,5 +44,4 @@
 		<property name="destination" ref="topicDestination" />
 		<property name="messageListener" ref="itemAddMessageListener" />
 	</bean>
-	
 </beans>

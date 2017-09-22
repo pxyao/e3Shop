@@ -12,14 +12,14 @@
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="active"/>
+			<item value="menu"/>
+			<item value="meni"/>
+			<item value="meny"/>
+			<item value="con"/>
 			<item value="JedisClient"/>
 			<item value="solr-ad"/>
 			<item value="ajax"/>
-			<item value="url"/>
-			<item value=".js"/>
-			<item value="$."/>
-			<item value="/item/"/>
-			<item value="/item/{item}"/>
 		</list>
 		<list key="replacehistory">
 			<item value="item"/>
@@ -35,7 +35,7 @@
 		<item value="325" key="DIALOG_WIDTH"/>
 		<item value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI" key="DIALOG_FONT_NAME"/>
 		<item value="444" key="DIALOG_HEIGHT"/>
-		<item value="894" key="DIALOG_X_ORIGIN"/>
-		<item value="234" key="DIALOG_Y_ORIGIN"/>
+		<item value="818" key="DIALOG_X_ORIGIN"/>
+		<item value="534" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>
