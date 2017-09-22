@@ -13,9 +13,6 @@
         <dependent-module archiveName="e3-common-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/e3-common/e3-common">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="fastdfs_client-1.25.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/fastdfs_client/fastdfs_client">
-            <dependency-type>uses</dependency-type>
-        </dependent-module>
         <dependent-module archiveName="e3-content-interface-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/e3-content-interface/e3-content-interface">
             <dependency-type>uses</dependency-type>
         </dependent-module>
